@@ -71,8 +71,4 @@ This guide will walk you through the setup process for creating an S3 bucket, co
     ```
     Ensure it returns a status 200 and a body with a `price` field in float format.
 12. If successful, click `Deploy API`, select `new stage`, name it, and click `Deploy`.
-13. Click on the `+` next to the stage name, expand all sections until you reach `POST`, and click on it. Copy the Invoke URL. This is your API endpoint. You can test it using Postman or Thunder Client in VS Code if you are familiar with them.
-
----
-
-This guide should help you set up the necessary AWS services step-by-step. Make sure to follow each instruction carefully to avoid any issues.
+13. Click on the `+` next to the stage name, expand all sections until you reach `POST`, and click on it. Copy the Invoke URL. This is your API endpoint. You can test it using Postman or Thunder Client in VS Code.
