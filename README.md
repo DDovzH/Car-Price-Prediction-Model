@@ -46,10 +46,7 @@ Each component was individually tested upon implementation, followed by testing 
 
 The project yielded positive results, enabling the creation of an efficient car price prediction model that can be easily integrated with an application. Utilizing AWS services ensured the flexibility and efficiency of the entire solution. The car price prediction model achieved an average error rate of 5%.
 
-
-
-
-
+<br><br><br>
 
 # Setup Guide
 
