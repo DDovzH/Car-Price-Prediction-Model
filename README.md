@@ -46,6 +46,11 @@ Each component was individually tested upon implementation, followed by testing 
 
 The project yielded positive results, enabling the creation of an efficient car price prediction model that can be easily integrated with an application. Utilizing AWS services ensured the flexibility and efficiency of the entire solution. The car price prediction model achieved an average error rate of 5%.
 
+
+
+
+
+
 # Setup Guide
 
 This guide will walk you through the setup process for creating an S3 bucket, configuring AWS Glue, setting up an Amazon SageMaker instance, deploying a Lambda function, and creating an API Gateway. Follow the steps carefully to ensure a smooth setup.
