@@ -1,3 +1,51 @@
+# Car Price Prediction Model
+
+## Introduction
+
+This project involved creating a car price prediction model that could be used in a car sales application. Various AWS services such as S3, AWS Glue, SageMaker, Lambda, and API Gateway were utilized in this project.
+
+## Solution Architecture
+
+### Components Description
+
+- **Amazon S3**: Used for storing data such as input and output data of the model, configuration files, etc.
+- **AWS Glue and Crawler**: Used for processing and preparing data for modeling. The Crawler automatically discovered and classified data in S3.
+- **Amazon SageMaker**: Employed for training the car price prediction model, allowing the use of built-in machine learning algorithms or custom algorithms.
+- **AWS Lambda**: A Lambda function was created to fetch input data from the application, process it, and send it to the SageMaker model to obtain the predicted price.
+- **Amazon API Gateway**: An API was created to enable the application to communicate with the Lambda function via HTTP.
+
+## Implementation Process
+
+### Data Preparation
+
+Car sales data was collected and stored in S3. AWS Glue was then used to process and clean the data.
+
+### Model Training
+
+The data was split into training and test sets, and SageMaker was used to train the car price prediction model.
+
+### Lambda Function Deployment
+
+A Lambda function was created to fetch input data, process it, and send it to the SageMaker model to get the price prediction.
+
+### API Gateway Configuration
+
+A new API was created in API Gateway, endpoints were configured, and integrations with the Lambda function were set up.
+
+### Testing and Deployment
+
+Each component was individually tested upon implementation, followed by testing the entire process from the application to obtaining the car price prediction.
+
+## Conclusions and Perspectives
+
+- Utilizing AWS services provided flexibility, scalability, and ease of management for the entire process, from data storage to model deployment in a production environment.
+- Version control and monitoring capabilities available in SageMaker allowed for continuous model improvement as new data was acquired.
+- The easy scalability provided by AWS services will enable handling a larger number of users and improve application performance in the future.
+
+## Summary and Evaluation
+
+The project yielded positive results, enabling the creation of an efficient car price prediction model that can be easily integrated with an application. Utilizing AWS services ensured the flexibility and efficiency of the entire solution. The car price prediction model achieved an average error rate of 5%.
+
 # Setup Guide
 
 This guide will walk you through the setup process for creating an S3 bucket, configuring AWS Glue, setting up an Amazon SageMaker instance, deploying a Lambda function, and creating an API Gateway. Follow the steps carefully to ensure a smooth setup.
